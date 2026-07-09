@@ -5,10 +5,10 @@ import type { Metadata } from "next";
 
 import { Footer } from "@/components/blocks/footer";
 import { Navbar } from "@/components/blocks/navbar";
+import { DashedLine } from "@/components/dashed-line";
 import { StyleGlideProvider } from "@/components/styleglide-provider";
 import { ThemeProvider } from "@/components/theme-provider";
 import "@/styles/globals.css";
-import { DashedLine } from "@/components/dashed-line";
 
 const dmSans = localFont({
   src: [

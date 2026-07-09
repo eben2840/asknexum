@@ -2,7 +2,6 @@ import React from "react";
 
 import { Background } from "@/components/background";
 import { FAQ } from "@/components/blocks/faq";
-import { Testimonials } from "@/components/blocks/testimonials";
 import { DashedLine } from "@/components/dashed-line";
 
 const Page = () => {

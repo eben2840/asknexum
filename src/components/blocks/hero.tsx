@@ -1,41 +1,40 @@
 import Image from "next/image";
 
-import {
-  Blend,
-  ChartNoAxesColumn,
-  CircleDot,
-  Diamond,
-} from "lucide-react";
+// import {
+//   Blend,
+//   ChartNoAxesColumn,
+//   CircleDot,
+//   Diamond,
+// } from "lucide-react";
 
-import { DashedLine } from "@/components/dashed-line";
 import { Button } from "@/components/ui/button";
 
-const features = [
-  {
-    title: "Executive cyber risk",
-    description:
-      "Board-ready guidance across cybersecurity, privacy, resilience, and controls.",
-    icon: CircleDot,
-  },
-  {
-    title: "Digital transformations",
-    description:
-      "Modernize cloud, identity, data, and technology programs with measured risk.",
-    icon: Blend,
-  },
-  {
-    title: "Crisis readiness",
-    description:
-      "Prepare leaders, operating teams, and response partners before pressure hits.",
-    icon: Diamond,
-  },
-  {
-    title: "Growth confidence",
-    description:
-      "Align strategic growth, diligence, and governance with institutional trust.",
-    icon: ChartNoAxesColumn,
-  },
-];
+// const features = [
+//   {
+//     title: "Executive cyber risk",
+//     description:
+//       "Board-ready guidance across cybersecurity, privacy, resilience, and controls.",
+//     icon: CircleDot,
+//   },
+//   {
+//     title: "Digital transformations",
+//     description:
+//       "Modernize cloud, identity, data, and technology programs with measured risk.",
+//     icon: Blend,
+//   },
+//   {
+//     title: "Crisis readiness",
+//     description:
+//       "Prepare leaders, operating teams, and response partners before pressure hits.",
+//     icon: Diamond,
+//   },
+//   {
+//     title: "Growth confidence",
+//     description:
+//       "Align strategic growth, diligence, and governance with institutional trust.",
+//     icon: ChartNoAxesColumn,
+//   },
+// ];
 
 export const Hero = () => {
   return (
