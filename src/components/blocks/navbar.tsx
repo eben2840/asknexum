@@ -8,8 +8,7 @@ import { usePathname } from "next/navigation";
 
 import { ChevronRight } from "lucide-react";
 
-import { Button } from "../ui/button";
-
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
   NavigationMenuContent,

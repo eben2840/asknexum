@@ -144,7 +144,6 @@ export default function RootLayout({
           <Navbar />
           <main className="">{children}</main>
           <DashedLine className="mx-auto max-w-xl" />
-          
           <Footer />
         </ThemeProvider>
       </body>
