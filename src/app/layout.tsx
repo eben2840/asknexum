@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 
 import type { Metadata } from "next";
@@ -55,11 +54,6 @@ const dmSans = localFont({
   ],
   variable: "--font-dm-sans",
   display: "swap",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -133,7 +127,7 @@ export default function RootLayout({
       <head>
         <base target="_blank"/>
       </head>
-      <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
+      <body className={`${dmSans.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
