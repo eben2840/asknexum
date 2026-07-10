@@ -18,6 +18,7 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "../theme-toggle";
 
 const ITEMS = [
   {
@@ -119,12 +120,12 @@ export const Navbar = () => {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-2.5">
-          {/* <ThemeToggle /> */}
-          <Link href="/login" className="max-lg:hidden">
+          <ThemeToggle />
+          {/* <Link href="/login" className="max-lg:hidden">
             <Button variant="outline">
               <span className="relative z-10">Book a Demo</span>
             </Button>
-          </Link>
+          </Link> */}
           {/* <a
             href="#!"
             target="_self"
