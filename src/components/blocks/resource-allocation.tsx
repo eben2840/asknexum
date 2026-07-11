@@ -141,13 +141,13 @@ export const ResourceAllocation = () => {
           />
 
           {/* Bottom Features Grid - 3 items */}
-          <div className="relative container grid max-w-7xl md:grid-cols-3">
+          <div className="relative container  grid max-w-7xl md:grid-cols-3">
             {bottomItems.map((item, i) => (
               <Item
                 key={i}
                 item={item}
                 isLast={i === bottomItems.length - 1}
-                className="md:pb-0"
+                className="md:pb-10"
               />
             ))}
           </div>
@@ -217,7 +217,7 @@ const Item = ({ item, isLast, className }: ItemProps) => {
                     alt={image.alt}
                     width={image.width}
                     height={image.height}
-                    className="object-contain object-left-top"
+                    className="object-contain object-left-top "
                   />
                   <div className="from-muted absolute inset-y-0 bottom-0 left-0 z-10 w-14 bg-linear-to-r to-transparent" />
                 </div>
@@ -234,7 +234,7 @@ const Item = ({ item, isLast, className }: ItemProps) => {
               alt={image.alt}
               width={image.width}
               height={image.height}
-              className="object-contain object-left-top"
+              className="object-contain object-left-top rounded-2xl"
             />
           ))}
         </div>
