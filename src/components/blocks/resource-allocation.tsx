@@ -11,7 +11,7 @@ const topItems = [
       "Translate security posture, privacy requirements, and control evidence into leadership-ready decisions.",
     images: [
       {
-        src: "/resource-allocation/templates.webp",
+        src: "/files/06-add-template-modal.png",
         alt: "Governance review interface",
         width: 495,
         height: 186,
@@ -68,7 +68,7 @@ const bottomItems = [
       "Prepare leaders, operating teams, and response partners before pressure hits.",
     images: [
       {
-        src: "/resource-allocation/graveyard.webp",
+        src: "/files/04-false-positive-column.png",
         alt: "Graveyard interface",
         width: 305,
         height: 280,
@@ -84,7 +84,7 @@ const bottomItems = [
       "Create clear priorities, defensible recommendations, and practical implementation paths.",
     images: [
       {
-        src: "/resource-allocation/discussions.webp",
+        src: "/files/02-notification-bubble.png",
         alt: "Task discussions interface",
         width: 320,
         height: 103,
@@ -100,7 +100,7 @@ const bottomItems = [
       "Connect cybersecurity, compliance, and growth priorities with institutional trust.",
     images: [
       {
-        src: "/resource-allocation/notifications.webp",
+        src: "/files/05-inbox-notifications.png",
         alt: "Notifications interface",
         width: 305,
         height: 280,
