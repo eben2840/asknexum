@@ -16,70 +16,79 @@ import {
 import { cn } from "@/lib/utils";
 
 const items = [
+  
+  // {
+  //   quote:
+  //     "The advisory process turned security, privacy, and resilience into a practical operating plan.",
+  //   author: "Jonas Kotara",
+  //   role: "Technology Leader",
+  //   company: "Mercury Finance",
+  //   image: "/testimonials/jonas-kotara.webp",
+  // },
+  // {
+  //   quote:
+  //     "We entered diligence with stronger governance evidence and more confidence.",
+  //   author: "Kevin Yam",
+  //   role: "Founder",
+  //   company: "Mercury Finance",
+  //   image: "/testimonials/kevin-yam.webp",
+  // },
+  // {
+  //   quote:
+  //     "Their crisis readiness work helped our teams understand roles before pressure hit.",
+  //   author: "Kundo Marta",
+  //   role: "Operations Lead",
+  //   company: "Mercury Finance",
+  //   image: "/testimonials/kundo-marta.webp",
+  // },
+  // {
+  //   quote:
+  //     "ASKNEXUM gave our leadership team clear language for cyber risk and growth decisions.",
+  //   author: "Amy Chase",
+  //   role: "Chief Risk Officer",
+  //   company: "Mercury Finance",
+  //   image: "/testimonials/amy-chase.webp",
+  // },
+  // {
+  //   quote:
+  //     "The advisory process turned security, privacy, and resilience into a practical operating plan.",
+  //   author: "Jonas Kotara",
+  //   role: "Technology Leader",
+  //   company: "Mercury Finance",
+  //   image: "/testimonials/jonas-kotara.webp",
+  // },
   {
-    quote:
-      "ASKNEXUM gave our leadership team clear language for cyber risk and growth decisions.",
-    author: "Amy Chase",
-    role: "Chief Risk Officer",
-    company: "Mercury Finance",
-    image: "/testimonials/amy-chase.webp",
-  },
-  {
-    quote:
-      "The advisory process turned security, privacy, and resilience into a practical operating plan.",
-    author: "Jonas Kotara",
-    role: "Technology Leader",
-    company: "Mercury Finance",
-    image: "/testimonials/jonas-kotara.webp",
-  },
-  {
-    quote:
-      "We entered diligence with stronger governance evidence and more confidence.",
-    author: "Kevin Yam",
-    role: "Founder",
-    company: "Mercury Finance",
-    image: "/testimonials/kevin-yam.webp",
-  },
-  {
-    quote:
-      "Their crisis readiness work helped our teams understand roles before pressure hit.",
-    author: "Kundo Marta",
-    role: "Operations Lead",
-    company: "Mercury Finance",
-    image: "/testimonials/kundo-marta.webp",
-  },
-  {
-    quote:
-      "ASKNEXUM gave our leadership team clear language for cyber risk and growth decisions.",
-    author: "Amy Chase",
-    role: "Chief Risk Officer",
-    company: "Mercury Finance",
-    image: "/testimonials/amy-chase.webp",
-  },
-  {
-    quote:
-      "The advisory process turned security, privacy, and resilience into a practical operating plan.",
-    author: "Jonas Kotara",
-    role: "Technology Leader",
-    company: "Mercury Finance",
-    image: "/testimonials/jonas-kotara.webp",
-  },
-  {
-    quote:
-      "We entered diligence with stronger governance evidence and more confidence.",
-    author: "Kevin Yam",
-    role: "Founder",
-    company: "Mercury Finance",
-    image: "/testimonials/kevin-yam.webp",
-  },
-  {
-    quote:
-      "Their crisis readiness work helped our teams understand roles before pressure hit.",
-    author: "Kundo Marta",
-    role: "Operations Lead",
-    company: "Mercury Finance",
-    image: "/testimonials/kundo-marta.webp",
-  },
+  quote:
+    "The official launch of ASKNEXUM, a platform built to help organizations make clearer cybersecurity decisions.",
+  author: "Launch Day",
+  role: "Product Announcement",
+  company: "ASKNEXUM",
+  image: "/askNexum/1.jpg",
+},
+{
+  quote:
+    "From governance insights to executive-ready risk reporting, we're excited to bring practical cyber intelligence to organizations worldwide.",
+  author: "What's New",
+  role: "Platform Highlights",
+  company: "ASKNEXUM",
+  image: "/askNexum/2.jpg",
+},
+{
+  quote:
+    "We're committed to continuously expanding ASKNEXUM with new capabilities, expert guidance, and customer-driven innovation.",
+  author: "Looking Ahead",
+  role: "Our Vision",
+  company: "ASKNEXUM",
+  image: "/askNexum/3.jpg",
+},
+{
+  quote:
+    "We look forward to partnering with customers and the security community to shape the future of cyber resilience.",
+  author: "Next Chapter",
+  role: "Our Commitment",
+  company: "ASKNEXUM",
+  image: "/askNexum/4.jpg",
+},
 ];
 
 export const Testimonials = ({
@@ -135,7 +144,7 @@ export const Testimonials = ({
                             {testimonial.quote}
                           </blockquote>
                           <div className="space-y-0.5">
-                            <div className="text-primary font-semibold">
+                            <div className="text-dark font-semibold">
                               {testimonial.author}, {testimonial.role}
                             </div>
                             <div className="text-muted-foreground text-sm">

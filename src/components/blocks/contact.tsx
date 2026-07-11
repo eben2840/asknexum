@@ -8,16 +8,16 @@ import { ContactForm } from "@/components/blocks/contact-form";
 import { DashedLine } from "@/components/dashed-line";
 
 const contactInfo = [
-  {
-    title: "Advisory office",
-    content: (
-      <p className="text-muted-foreground mt-3">
-        1 Carlsberg Close
-        <br />
-        1260 Hillview, Australia
-      </p>
-    ),
-  },
+  // {
+  //   title: "Advisory office",
+  //   content: (
+  //     <p className="text-muted-foreground mt-3">
+  //       1 Carlsberg Close
+  //       <br />
+  //       1260 Hillview, Australia
+  //     </p>
+  //   ),
+  // },
   {
     title: "Email us",
     content: (

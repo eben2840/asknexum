@@ -68,7 +68,7 @@ const bottomItems = [
       "Prepare leaders, operating teams, and response partners before pressure hits.",
     images: [
       {
-        src: "/files/04-false-positive-column.png",
+        src: "/resource-allocation/graveyard.webp",
         alt: "Graveyard interface",
         width: 305,
         height: 280,
@@ -116,7 +116,7 @@ export const ResourceAllocation = () => {
   return (
     <section
       id="resource-allocation"
-      className="overflow-hidden pb-28 lg:pb-32"
+      className="overflow-hidden pb-2 lg:pb-3"
     >
       <div className="">
         <h2 className="container text-center text-3xl tracking-tight text-balance sm:text-4xl md:text-5xl lg:text-6xl">
