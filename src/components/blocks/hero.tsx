@@ -32,8 +32,7 @@ export const Hero = () => {
             src="/files/01-kanban-board.png"
             alt="hero"
             fill
-            className="rounded-2xl  shadow-lg max-lg:rounded-tr-none"
-            // className="rounded-2xl object-cover object-left-top shadow-lg max-lg:rounded-tr-none"
+            className="rounded-2xl object-cover object-left-top shadow-lg max-lg:rounded-tr-none"
           />
         </div>
       </div> 
